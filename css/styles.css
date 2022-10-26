@@ -26,16 +26,52 @@ body {
  color: var(--primary-text-color);
  background-color: var(--background-color);
 }
+ 
+/* reset style */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+ margin: 0;
+}
 
 ul {
  list-style: none;
+ padding: 0;
+ margin: 0;
 }
 
 .link {
  text-decoration: none;
 }
+ 
+img {
+    display: block;
+}
 
 /*-------------header-------------*/
+
+
+
+
+.section {
+    outline: 2px solid tomato;
+
+}
+
+.container {
+ width: 1170px;
+ padding-left: 10px;
+ padding-right: 10px;
+ margin-left: auto;
+ margin-right: auto;
+ outline: 2px solid blue;
+}
+
 .heder {
  background-color: var(--background-colorl);
 }
@@ -96,6 +132,8 @@ color: var(--accent-color);
 
 .section-bg {
  background-color:var(--background-color-third);
+ padding-top: 200px;
+ padding-bottom: 277px;
 }
 
 .section-bg-title {
@@ -106,6 +144,7 @@ color: var(--accent-color);
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--white-color);
+    margin-bottom: 30px;
 }
 
 .section-bg-button {
@@ -118,6 +157,13 @@ color: var(--accent-color);
     color: var(--white-color);
     background-color: var(--background-color-accent);
     border: none;
+    padding: 10px 32px;
+    border-radius: 4px;
+    min-width: 216px;
+    min-height: 50px;
+    left: 677px;
+    top: 445px;
+
 }
 
 .section-bg-button:hover,
@@ -142,11 +188,17 @@ color: var(--accent-color);
   margin: -1px;
 }
 
+.activity-section {
+    padding-top: 82px;
+    padding-bottom: 94;
+}
+
 .activity-title {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
     }
 
 .activity-text {
@@ -167,6 +219,12 @@ color: var(--accent-color);
 
 
 /* Склад команды */
+.team-section, .work-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
 .team {
  background-color: var(--background-color-secondary);
 }
@@ -175,12 +233,17 @@ color: var(--accent-color);
     background-color: var(--background-color);
 }
 
+.team-img {
+    margin-bottom: 30px;
+}
+
 .team-subtitle {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;  
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 
 .team-text {
@@ -225,6 +288,15 @@ color: var(--accent-color);
     line-height: 1.71;         
     letter-spacing: 0.03em;
     color: var(--white-color);
+  
+}
+
+.footer-logo, .footer-item, .footer-item {
+display: inline;
+}
+
+.email {
+    margin-bottom: 9px;
 }
 
 .footer-list .footer-item:hover,
@@ -264,11 +336,16 @@ color: var(--accent-color);
  background-color: var(--accent-color);
 }
 
+.project-img {
+ margin-bottom: 20px;
+}
+
 .project-title {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
+    margin-bottom: 4px;
 }
 
 .project-text {
