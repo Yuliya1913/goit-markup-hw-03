@@ -59,7 +59,7 @@ img {
 
 
 .section {
-    outline: 2px solid tomato;
+    outline: 2px solid blueviolet;
 
 }
 
@@ -92,6 +92,10 @@ img {
 
 /* nav */
 /* site-nav */
+
+.site-nav {
+    display: flex;
+}
 
 .site-nav .link {
     font-weight: 700;
