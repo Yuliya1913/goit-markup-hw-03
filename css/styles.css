@@ -291,6 +291,10 @@ color: var(--accent-color);
   
 }
 
+
+
+
+
 .footer-logo, .footer-item, .footer-item {
 display: inline;
 }
@@ -298,6 +302,11 @@ display: inline;
 .email {
     margin-bottom: 9px;
 }
+
+
+
+
+
 
 .footer-list .footer-item:hover,
 .footer-list .footer-item:focus {
