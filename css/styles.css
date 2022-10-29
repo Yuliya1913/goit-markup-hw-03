@@ -52,6 +52,7 @@ ul {
 img {
     display: block;
     max-width: 100%;
+    height: auto;
 }
 
 .container {
@@ -74,8 +75,13 @@ img {
 
 .heder {
  background-color: var(--background-colorl);
- padding-top: 24px;
- padding-bottom: 40px;
+ padding-bottom: 15px;
+ 
+}
+
+.line {
+ border-bottom: 1px solid #ECECEC;
+ 
 }
 
 .main {
@@ -110,6 +116,7 @@ img {
 
 .site-nav {
     display: flex;
+    align-items: center;
     
 }
 
@@ -120,6 +127,8 @@ img {
 
 .site-nav .link {
     display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
     font-weight: 700;
     font-size: 14px;
@@ -142,6 +151,7 @@ color: var(--accent-color);
 
 .auth-nav {
     display: flex;
+    align-items: center;
     margin-left: auto;
         
 } 
@@ -224,6 +234,8 @@ color: var(--accent-color);
 
 /*  Інформація про сферу діяльності*/
 
+/*  Приховали заголовок*/
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -237,13 +249,11 @@ color: var(--accent-color);
   margin: -1px;
 }
 
+
 .activity-section {
     padding-top: 92px;
     padding-bottom: 94px;
 }
-
-
-
 
 
 .activity-list {
@@ -266,18 +276,14 @@ color: var(--accent-color);
 }
 
 
-
-
-
-
-
 .activity-title {
+    margin-bottom: 10px;
+
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-bottom: 10px;
-    }
+}    
 
 .activity-text {
     font-size: 14px;
@@ -287,56 +293,6 @@ color: var(--accent-color);
 }
 
 /* сфера діяльності */
-
-
-
-/* .work-list {
-    display: flex;
-    flex-wrap: wrap;
-    
-
-}
- 
-.work-item {
-    margin-right: 30px;
-}
-
-.work-item:nth-child(3n){
-    margin-right: 0px;
-} */
-
-
-
-
-
-/* .work-list {
-    display: flex;
-    flex-wrap: wrap;
-
-
-}
-
-.work-item {
-    flex-basis: auto;
-    margin-right: 30px;
-}
-
-.work-item:nth-child(3n) {
-    margin-right: 0px;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .work-list {
     display: flex;
@@ -417,6 +373,8 @@ color: var(--accent-color);
 }
 
 .footer .footer-logo {
+    margin-bottom: 20px;
+    display: block;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -431,6 +389,8 @@ color: var(--accent-color);
 }
 
 .footer .footer-text {
+    margin-bottom: 9px;
+
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -438,6 +398,8 @@ color: var(--accent-color);
 }
 
 .footer-list .footer-item {
+    display: block;
+    
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -447,27 +409,14 @@ color: var(--accent-color);
   
 }
 
-
-
-
-
-.footer-logo, .footer-item, .footer-item {
-display: inline;
+.indent {
+margin-bottom: 9px;
 }
-
-.email {
-    margin-bottom: 9px;
-}
-
-
-
-
-
 
 .footer-list .footer-item:hover,
 .footer-list .footer-item:focus {
     color: var(--accent-color);
-}
+} */
 
 
 
