@@ -70,6 +70,8 @@ img {
 }
 
 .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
     outline: 2px solid orange;
 
 }
@@ -133,7 +135,7 @@ img {
     padding-top: 32px;
     padding-bottom: 32px;
 
-    font-weight: 700;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -255,20 +257,21 @@ color: var(--accent-color);
 
 .activity-section {
     padding-top: 94px;
-    padding-bottom: 94px;
+    
 }
 
 
 .activity-list {
     display: flex;
-    flex-wrap: wrap;
+    
 }
 
 .activity-item {
-    width: 270px;
+    flex-basis: calc((100% - 90px) / 4);
     margin-right: 30px;
     margin-bottom: 30px;
 }
+
 
 .activity-item:nth-child(4n) {
     margin-right: 0px;
@@ -298,8 +301,7 @@ color: var(--accent-color);
 /* сфера діяльності */
 
 .work-section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+ padding-bottom: 94px;
 }
 
 .work-list {
@@ -325,10 +327,6 @@ color: var(--accent-color);
 
 
 /* Склад команды */
-.team-section, .work-section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
 .team-box {
     display: flex;
@@ -337,7 +335,8 @@ color: var(--accent-color);
 }
 
 .box {
-    padding: 30px 70px;
+    text-align: center;
+    padding: 30px;
 }
 .team-list {
  flex-basis: calc((100% - 90px) / 4);
@@ -357,9 +356,9 @@ color: var(--accent-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;  
-    text-align: center;
+    
     letter-spacing: 0.03em;
-    margin-bottom: 10px;
+    
 }
 
 .team-text {
